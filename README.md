@@ -63,7 +63,7 @@ Nesse projeto não tive a chance de trabalhar com #react e #javascript, mas pren
 ## Autor
 
 - Website - [Joseph Monteiro](https://www.youtube.com/channel/UCW547O_z-OVunS10_ilCMSw)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@NEGOJOSEPH](https://www.frontendmentor.io/profile/negojoseph)
 - Instagran - [@prof.josephmonteiro](https://www.instagram.com/prof.josephmonteiro/)
 
 
