@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color:   hsl(212, 45%, 89%);
+    }
+    .box {
+      background-color: hsl(0, 0%, 100%);
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      text-align: center;
+      width: 300px;
+      border-radius: 5%;
+      max-width: 1440px;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .container img {
+      width: 270px;
+      margin: 15px;
+      border-radius: 5%
+    }
+    .texto1{
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+      margin: -15px 20px;
+      color: hsl(218, 44%, 22%);
+    }
+    .texto2{
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      margin: -5px 20px;
+      margin-bottom: 20px;
+      color: hsl(220, 15%, 55%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div><img src="images/image-qr-code.png" alt="codigo qr"></div>
+      <div class="texto1">
+        <p><strong>Melhore suas habilidades de front-end criando projetos</strong></p>
+      </div>
+      <div class="texto2">
+        <p>Escaneie o código QR para visitar o Frontend Mentor e leve suas habilidades de codificação para o próximo nível</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Codificado pela <a href="https://www.instagram.com/prof.josephmonteiro/" target="_blank">Joseph Monteiro</a>
+  </div>
+</body>
+</html>
